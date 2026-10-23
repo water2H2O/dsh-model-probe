@@ -1,0 +1,22 @@
+[
+  { "id": "arith1", "prompt": "17 × 23 = ?\nA) 391\nB) 381\nC) 401\nD) 371", "answer": "A" },
+  { "id": "algebra", "prompt": "一个数加 8 再乘 3 等于 60，这个数是？\nA) 12\nB) 16\nC) 20\nD) 10", "answer": "A" },
+  { "id": "logic", "prompt": "已知：所有 A 都是 B；有些 B 是 C。以下哪项必然成立？\nA) 有些 A 是 C\nB) 无法确定 A 与 C 的关系\nC) 所有 A 都是 C\nD) 没有 A 是 C", "answer": "B" },
+  { "id": "count", "prompt": "字符串 \"abcabcabc\" 中 \"abc\" 出现几次？\nA) 2\nB) 3\nC) 4\nD) 1", "answer": "B" },
+  { "id": "binary", "prompt": "二进制 1011 的十进制值是？\nA) 11\nB) 13\nC) 9\nD) 15", "answer": "A" },
+  { "id": "js-map", "prompt": "JavaScript：[1,2,3].map(x => x*2).filter(x => x > 2) 的结果是？\nA) [2,4,6]\nB) [4,6]\nC) [2,4]\nD) [6]", "answer": "B" },
+  { "id": "py-set", "prompt": "Python：len(set([1,1,2,3])) 的结果是？\nA) 4\nB) 1\nC) 3\nD) 2", "answer": "C" },
+  { "id": "sql-count", "prompt": "SQL 中 COUNT(*) 与 COUNT(col) 的关键区别？\nA) 没有区别\nB) COUNT(col) 忽略 NULL\nC) COUNT(*) 一定更快\nD) COUNT(col) 只统计不同值", "answer": "B" },
+  { "id": "bigo-bubble", "prompt": "冒泡排序的最坏时间复杂度是？\nA) O(n)\nB) O(n log n)\nC) O(n²)\nD) O(2ⁿ)", "answer": "C" },
+  { "id": "http-401", "prompt": "HTTP 401 与 403 的区别？\nA) 401 = 未认证；403 = 已认证但无权限\nB) 401 = 服务器错误\nC) 403 = 未认证\nD) 两者完全等价", "answer": "A" },
+  { "id": "js-emoji", "prompt": "JavaScript 中 \"🙂\".length 的值是？\nA) 1\nB) 2\nC) 3\nD) 4", "answer": "B" },
+  { "id": "prob-coin", "prompt": "掷两枚公平硬币，至少出现一个正面的概率是？\nA) 1/2\nB) 3/4\nC) 1/4\nD) 2/3", "answer": "B" },
+  { "id": "speed", "prompt": "以 60 km/h 行驶 90 km 需要多久？\nA) 1 小时\nB) 1.5 小时\nC) 2 小时\nD) 45 分钟", "answer": "B" },
+  { "id": "regex", "prompt": "正则表达式 ^\\d+$ 能否匹配字符串 \"123\"？\nA) 能\nB) 不能\nC) 只能匹配单个数字\nD) 必须加 i 标志", "answer": "A" },
+  { "id": "git-undo", "prompt": "要撤销最近一次尚未推送的提交、但保留改动，应该用？\nA) git reset --soft HEAD~1\nB) git revert HEAD\nC) git checkout HEAD~1\nD) git clean -fd", "answer": "A" },
+  { "id": "bigo-bsearch", "prompt": "二分查找的时间复杂度是？\nA) O(1)\nB) O(log n)\nC) O(n)\nD) O(n log n)", "answer": "B" },
+  { "id": "json-trailing", "prompt": "JSON 文本 {\"a\":1,} 是否合法？\nA) 合法\nB) 非法\nC) 仅在 JavaScript 中合法\nD) 取决于编码", "answer": "B" },
+  { "id": "bitand", "prompt": "6 & 3 的结果是？\nA) 2\nB) 3\nC) 7\nD) 1", "answer": "A" },
+  { "id": "factorial", "prompt": "已知 f(0)=1，f(n)=n·f(n-1)，则 f(4) = ？\nA) 12\nB) 24\nC) 6\nD) 120", "answer": "B" },
+  { "id": "semantics", "prompt": "英文单词 \"bank\" 的正确理解是？\nA) 只能是「银行」\nB) 只能是「河岸」\nC) 可指银行也可指河岸，取决于上下文\nD) 只能是动词", "answer": "C" }
+]
